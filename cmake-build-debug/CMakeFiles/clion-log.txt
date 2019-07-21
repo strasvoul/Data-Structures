@@ -1,0 +1,40 @@
+"C:\Program Files\JetBrains\CLion 2019.1.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\Stratis\Desktop\ΔΟΜΕΣ-10ΑΡΑΚΙ\Data_Structures
+-- The C compiler identification is GNU 8.1.0
+-- The CXX compiler identification is GNU 8.1.0
+-- Check for working C compiler: C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/gcc.exe
+-- Check for working C compiler: C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/gcc.exe -- broken
+CMake Error at C:/Program Files/JetBrains/CLion 2019.1.4/bin/cmake/win/share/cmake-3.14/Modules/CMakeTestCCompiler.cmake:60 (message):
+  The C compiler
+
+    "C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/gcc.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: C:/Users/Stratis/Desktop/Î”ÎŸÎœÎ•Î£-10Î‘Î¡Î‘ÎšÎ™/Data_Structures/cmake-build-debug/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe cmTC_fa449/fast 
+    mingw32-make.exe: *** INTERNAL: readdir: Invalid argument.  Stop.
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+CMake Warning (dev) in CMakeLists.txt:
+  No cmake_minimum_required command is present.  A line of code such as
+
+    cmake_minimum_required(VERSION 3.14)
+
+  should be added at the top of the file.  The version specified may be lower
+  if you wish to support older CMake versions for this project.  For more
+  information run "cmake --help-policy CMP0000".
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/Stratis/Desktop/Î”ÎŸÎœÎ•Î£-10Î‘Î¡Î‘ÎšÎ™/Data_Structures/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "C:/Users/Stratis/Desktop/Î”ÎŸÎœÎ•Î£-10Î‘Î¡Î‘ÎšÎ™/Data_Structures/cmake-build-debug/CMakeFiles/CMakeError.log".
