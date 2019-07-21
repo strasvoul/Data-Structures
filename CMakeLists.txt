@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(.)
 
 add_executable(Data_Structures
-        AvlTree.cpp
-        AvlTree.h
+        AvlTree/AvlTree.cpp
+        AvlTree/AvlTree.h
         main.cpp
-        Heap.cpp Heap.h HashEntry.cpp HashEntry.h HashTable.cpp HashTable.h Graph.cpp Graph.h)
+        Heaps/Heap.cpp Heaps/Heap.h HashTable/HashEntry.cpp HashTable/HashEntry.h HashTable/HashTable.cpp HashTable/HashTable.h Graph/Graph.cpp Graph/Graph.h)

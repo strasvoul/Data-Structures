@@ -2,10 +2,10 @@
 #include <fstream>
 #include <chrono>
 #include <string>
-#include "AvlTree.h"
-#include "Heap.h"
-#include "HashTable.h"
-#include "Graph.h"
+#include "AvlTree/AvlTree.h"
+#include "Heaps/Heap.h"
+#include "HashTable/HashTable.h"
+#include "Graph/Graph.h"
 
 using namespace std;
 using namespace std::chrono;
